@@ -49,7 +49,7 @@ function watchForUserClick() {
         if (!checkIfAlreadyOcc(target)) {
             handleAddClass(target);
             if (checkWinner() === true) {
-                $('#user-turn').text('PLAYER ' + state.turn + ' wins');
+                $('#user-turn').text('Player ' + state.turn + ' wins!!!!!!!');
                 $('.container').append('<a href="index.html">Reset</a>');
             } else {
                 updateTurn();
