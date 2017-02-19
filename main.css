@@ -1,0 +1,30 @@
+table {
+    width: 250px;
+    height: 250px;
+}
+
+tr {
+
+}
+
+td {
+  border: 1px solid black;
+  width: 33.33%;
+  height: 33.33%;
+}
+
+.container {
+  display: table;
+  margin: auto;
+  text-align: center;
+}
+
+.x::before {
+  content: "x";
+  color: blue;
+}
+
+.o::before {
+  content: "o";
+  color: red;
+}
